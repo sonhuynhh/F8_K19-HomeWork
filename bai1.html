@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+    <style>
+      .box {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .label {
+        font-size: 12px;
+        margin-top: 10px;
+      }
+
+      /* 2. CÁC HÌNH CƠ BẢN (HÀNG 1) */
+      .hinh-1 {
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+        margin: 0 auto;
+      }
+      .hinh-2 {
+        width: 80px;
+        height: 40px;
+        border: 2px solid blue;
+        margin: 0 auto;
+      }
+
+      /* border-color: top - right - bottom - left */
+      /* Tam giác lên:  */
+      .hinh-3 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 30px 50px 30px;
+        border-color: transparent transparent #5cb85c transparent;
+      }
+
+      .hinh-4 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 50px 30px 0 30px;
+        border-color: #f0ad4e transparent transparent transparent;
+      }
+
+      .hinh-5 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 50px 30px 0;
+        border-color: transparent #9b59b6 transparent transparent;
+      }
+
+      .hinh-6 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 0 30px 50px;
+        border-color: transparent transparent transparent #e67e22;
+      }
+
+      .hinh-7 {
+        width: 60px;
+        height: 0;
+        border-style: solid;
+        border-width: 0 20px 50px 20px;
+        border-color: transparent transparent #1abc9c transparent;
+      }
+
+      /* 3. CÁC HÌNH BIẾN THỂ (HÀNG 2) */
+      .hinh-8 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 50px 30px 50px;
+        border-color: transparent transparent #34495e transparent;
+      }
+
+      .hinh-9 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 15px 70px 15px;
+        border-color: transparent transparent #a94442 transparent;
+      }
+
+      .hinh-10 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 30px 35px 30px;
+        border-color: transparent transparent #a0522d transparent;
+      }
+
+      .hinh-11 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 0 25px 40px;
+        border-color: transparent transparent transparent #5f9ea0;
+      }
+
+      .hinh-12 {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 40px 25px 0;
+        border-color: transparent #8e44ad transparent transparent;
+      }
+
+      /* Hình 13: Ribbon  */
+      .hinh-13 {
+        width: 60px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 20px 20px 0;
+        border-color: #d9534f transparent #d9534f #d9534f;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Các hình có thể tạo được với Border</h2>
+
+    <div class="box">
+      <div class="hinh-1"></div>
+      <div class="label">1. Hình vuông</div>
+    </div>
+    <div class="box">
+      <div class="hinh-2"></div>
+      <div class="label">2. Hình chữ nhật</div>
+    </div>
+    <div class="box">
+      <div class="hinh-3"></div>
+      <div class="label">3. Tam giác lên</div>
+    </div>
+    <div class="box">
+      <div class="hinh-4"></div>
+      <div class="label">4. Tam giác xuống</div>
+    </div>
+    <div class="box">
+      <div class="hinh-5"></div>
+      <div class="label">5. Tam giác trái</div>
+    </div>
+    <div class="box">
+      <div class="hinh-6"></div>
+      <div class="label">6. Tam giác phải</div>
+    </div>
+    <div class="box">
+      <div class="hinh-7"></div>
+      <div class="label">7. Hình thang</div>
+    </div>
+
+    <br />
+
+    <div class="box">
+      <div class="hinh-8"></div>
+      <div class="label">8. Tam giác rộng</div>
+    </div>
+    <div class="box">
+      <div class="hinh-9"></div>
+      <div class="label">9. Tam giác nhọn</div>
+    </div>
+    <div class="box">
+      <div class="hinh-10"></div>
+      <div class="label">10. Tam giác cân</div>
+    </div>
+    <div class="box">
+      <div class="hinh-11"></div>
+      <div class="label">11. Mũi tên phải</div>
+    </div>
+    <div class="box">
+      <div class="hinh-12"></div>
+      <div class="label">12. Mũi tên trái</div>
+    </div>
+    <div class="box">
+      <div class="hinh-13"></div>
+      <div class="label">13. Ribbon/Lá cờ</div>
+    </div>
+  </body>
+</html>
